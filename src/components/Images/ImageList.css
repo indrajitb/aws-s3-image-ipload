@@ -1,0 +1,15 @@
+/*
+ * @Author: Indrajit Bhattacharya 
+ * @Date: 2020-09-13 17:22:54 
+ * @Last Modified by:   Indrajit Bhattacharya 
+ * @Last Modified time: 2020-09-13 17:22:54 
+ */
+.img-wrap {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    padding: 10px;
+  }

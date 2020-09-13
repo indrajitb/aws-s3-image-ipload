@@ -1,0 +1,88 @@
+.s3-image-uploader {
+    /* width: 30rem; */
+    /* width: 100%; */
+    width: 100rem;
+    margin: 2rem auto;
+    max-width: 80%;
+}
+
+.form-control label,
+.form-control input {
+    display: block;
+    width: 100%;
+}
+
+.form-control input {
+    font: inherit;
+    padding: 0.1rem 0.25rem;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 1rem;
+}
+
+.form-control input:focus {
+    outline: none;
+    border-bottom-color: #ff2058;
+}
+
+.s3-image-uploader__actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.Button:first-of-type {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.Button:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.Success {
+    color: #5C9210;
+}
+
+.Danger {
+    color: #944317;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: red;
+}
+
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}

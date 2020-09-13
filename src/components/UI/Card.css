@@ -1,0 +1,11 @@
+/*
+ * @Author: Indrajit Bhattacharya 
+ * @Date: 2020-09-11 10:42:38 
+ * @Last Modified by:   Indrajit Bhattacharya 
+ * @Last Modified time: 2020-09-11 10:42:38 
+ */
+.card {
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
